@@ -1,0 +1,27 @@
+{
+  "name": "opencode-ctxcap",
+  "version": "0.1.0",
+  "description": "OpenCode V2 plugin: cap a model's effective context window via ctx.model.transform so compaction engages earlier",
+  "private": false,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "context",
+    "compaction",
+    "tokens"
+  ],
+  "dependencies": {
+    "@opencode/plugin": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}
